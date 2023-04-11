@@ -1,0 +1,155 @@
+
+html {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    background: #000000;
+    color: white;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0%;
+  }
+section, .superior_categorias, .superior, .txt{
+    padding: 0px 15px;
+}
+h1{
+    font-size: 25px;
+}
+
+p{ 
+    font-size: 10px;
+    background-color: rgba(68, 69, 69, 0.434);
+    backdrop-filter: blur(80%);
+    border-radius: 25px;
+    padding:5px 10px ;
+}
+
+img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 15px;
+}
+.txt_albumes{
+    margin: 1rem 0rem;
+}
+/* superior logo */
+.superior{
+    margin: 1rem 0rem ;
+}
+.icon_superior{
+    height: 1rem;
+    width: 3.5rem;
+}
+.icon_sup{
+    height: 25px;
+    width: 25px;
+}
+.icon_perfil{
+    height: 25px;
+    width: 25px;
+}
+/* sesion de categorias */
+.superior_categorias{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.categorias{
+    background-color: rgba(68, 69, 69, 0.434);
+    backdrop-filter: blur(80%);
+    padding: 7px;
+    border-radius: 5px;
+    text-align: center;
+}  
+.categorias:hover{
+    background-color: rgba(148, 145, 145, 0.434)
+}
+/* sesion del perfil */
+.perfil_img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+}
+.perfil{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+.subtitulo{
+    font-size: 10px;
+    color: rgb(173, 173, 173);
+}
+.mas_info{
+    display: flex;
+    align-items: end;
+
+}
+/* sleccion rapida */
+.portadas_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 20px;
+}
+.portada {
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;    
+    row-gap: 5px;
+}
+/* seleccion rapida grid */
+.cancion{
+    display: flex; 
+    margin-top: 10px;
+    margin-right: 15px;
+    justify-content: space-between;
+}
+.parte_izq{display: flex; }
+.cancion > img{
+    height: 30px;
+    width: 30px;
+}
+.cancion_rapida{
+    margin: 0px 7px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5px;
+}
+.nombre_cancion{
+    font-size: 15px;
+    font-weight: 400;
+}
+/* exploracion fixed */
+.exploracion{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: .5rem  0rem;
+    align-items: center;
+}
+.icon_exploracion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+}
+.exp_icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0px 
+}
+.expo{
+    background-color: rgba(173, 173, 173, 0.21);
+}
